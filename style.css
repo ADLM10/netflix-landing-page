@@ -176,3 +176,136 @@ nav{
     background-color: black;
     border-top: 8px solid #242424;
 }
+
+.faq{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-top: 8px solid #242424;
+}
+
+.faqtext{
+    margin-top: 50px;
+    font-size: 2.5em;
+    font-family: netflix-sans-regular;
+    color: white;
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #383434;
+    border: 5px solid black;
+    width:750px;
+    height: 80px;
+}
+
+.childques{
+    font-family: netflix-sans-regular;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.childplus{
+    font-family: netflix-sans-regular;
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+.thirdlinebottom{
+    font-size: 1.1em;
+    font-family: netflix-sans-thin;
+    color: white;
+    margin-top: 80px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    background-color: black;
+    border-top: 8px solid #242424
+}
+
+.contactchild{
+    font-size: 18px;
+    font-family: netflix-sans-regular;
+    text-align: center;
+    color: #75736f;
+}
+
+.contactparent{
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    width: 800px;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    height:150px;
+    width:800px ;
+}
+
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.thirdbox{
+    display: flex;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.fourthbox{
+    display: flex;
+    flex-direction: column;
+    height: 148px;
+    width: 200px;
+}
+
+.link{
+    font-family: netflix-sans-regular;
+    font-size: 15px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #75736f;
+}
+
+.bottomoption{
+    margin-top: 20px;
+    width:800px;
+}
+
+.bottomtextparent{
+    margin-top: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.bottomtextchild{
+    font-size: 12px;
+    font-family: netflix-sans-regular;
+    color:#75736f;
+}
