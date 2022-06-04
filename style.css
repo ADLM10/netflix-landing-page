@@ -1,3 +1,16 @@
+@font-face{
+    font-family: netflix-sans-regular;
+    src:url(/Fonts/NetflixSansRegular.ttf) ;
+}
+@font-face{
+    font-family: netflix-sans-bold;
+    src:url(/Fonts/NetflixSansBold.ttf) ;
+}
+@font-face{
+    font-family: netflix-sans-thin;
+    src:url(/Fonts/NetflixSansThin.ttf) ;
+}
+
 body{
     margin: 0px;
 }
@@ -57,21 +70,109 @@ nav{
 }
 
 .firstpage{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
 .firstline{
+    padding-top: 50px;
+    margin-bottom: 0;
+    font-size: 3.5em;
+    font-family: netflix-sans-regular;
     color: white;
 }
 
 .secondline{
+    margin-top: 8px;
+    font-size:  1.25em;
+    font-family: netflix-sans-thin;
     color: white;
 }
 
 .thirdline{
+    font-size: 1.1em;
+    font-family: netflix-sans-thin;
     color: white;
+}
+
+.wrapper{
+    max-width: 700px;
+}
+
+.emailbox{
+    font-size: 15px;
+    margin-right: 0;
+    height: 50px;
+    width: 500px;
+}
+
+.getstarted{
+    border: #e50914;
+    text-align: center;
+    background-color: #e50914;
+    color: white;
+    font-family: netflix-sans-regular;
+    font-size: 1.5em;
+    height: 55px;
+    margin-left: 0;
+}
+
+.email{
+    display: flex;
+    flex-shrink: 1;
+    align-items: center;
+}
+
+.secondpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-top: 8px solid #242424;
+}
+.windowtext{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.pagefirstline{
+    font-size: 3em;
+    font-family: netflix-sans-regular;
+    color: white;
+    margin-bottom: 0%;
+}
+
+.pagesecondline{
+    margin-top: 10px;
+    font-family: netflix-sans-regular;
+    color: white;
+}
+
+.thirdpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-top: 8px solid #242424;
+}
+
+.fourthpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-top: 8px solid #242424;
+}
+
+.fifthpage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    border-top: 8px solid #242424;
 }
