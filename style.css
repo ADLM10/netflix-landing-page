@@ -10,15 +10,18 @@ nav{
 }
 
 #logo{
+    width: 10vw;
     padding: 30px;
     margin-left: 25px;
 }
 
 .headerright{
     display: flex;
+    align-items: center;
     padding: 30px;
 }
 .lang{
+    border-radius: 5px;
     outline: none;
     border:1px solid white ;
     background: transparent;
@@ -28,19 +31,47 @@ nav{
     height: 35px;
     width: 80px;
 }
+.option{
+    color: gray;
+}
 
 .options{
     padding-right: 25px;
 }
 
 .page{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/5b9fdff5-be3d-4fc6-9606-dd1b4002f277/IN-en-20220530-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)), url(https://assets.nflxext.com/ffe/siteui/vlv3/5ea364b1-8e59-4693-8ad8-f0eaee32d1bf/5b9fdff5-be3d-4fc6-9606-dd1b4002f277/IN-en-20220530-popsignuptwoweeks-perspective_alpha_website_large.jpg);
     background-size:inherit;
     background-repeat: no-repeat;
     min-height: 78vh;
 }
+.btn{
+    border: #e50914;
+    font-size: 15px;
+    color: white;
+    background-color:#e50914 ;
+    border-radius: 5px;
+    width: 75px;
+    height: 30px;
+    cursor: pointer;
+}
 
 .firstpage{
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.firstline{
+    color: white;
+}
+
+.secondline{
+    color: white;
+}
+
+.thirdline{
+    color: white;
 }
